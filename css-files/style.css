@@ -122,3 +122,46 @@
     .grow:hover { 
     transform: scale(1.1); 
     }
+.second-section {
+    display: flex;
+    justify-content: center;
+    gap:65.55px;
+    margin-top: 135px;
+}    
+.designer-info {
+    max-width: 334px;
+    text-align: right;
+}
+.personal-photo {
+    max-width: 430px;
+}
+.persentages {
+    max-width: 302px;
+}
+.personal-photo img{
+    max-width: 100%;
+}
+.status {
+    color: #DAAE19;
+}
+.hire-me{
+    color: #ffff;
+    background-color: #E93656;
+    padding: 13px 46px 17px 53px;
+    text-decoration: none;
+}
+.about-info{
+    margin-bottom: 60px;
+    margin-top: 33px;
+}
+#progress1 {
+    height: 6px;
+    background-color: grey;
+    display: block;
+  }
+  
+  #bar1 {
+    width: 80%;
+    height: 6px;
+    background-color: #E93656;
+  }
