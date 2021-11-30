@@ -55,10 +55,10 @@
 .icons {
     display: flex;
     gap:10px;
+    margin-top: 30px;
     
 }
 .icons img {
-    max-width: 30px;
     width:100%;
 }
 .hi {
@@ -150,6 +150,9 @@
     padding: 13px 46px 17px 53px;
     text-decoration: none;
 }
+.hire-me:hover{
+    background-color:rgb(102, 18, 4);
+}
 .about-info{
     margin-bottom: 60px;
     margin-top: 33px;
@@ -201,4 +204,52 @@
     from {
         width: 0;
     }
+}
+#black-icon {
+    margin-top: 78px;
+}
+#black-icon img {
+    max-width:30px;
+    max-height: 30px;
+}
+.third-section {
+    background-color: #131A36;
+    margin-top: 100px;
+    max-height: 210px;
+}
+.personal-information-icon {
+    max-width:30px;
+    max-height: 30px;
+    border-radius: 50%; 
+    transition: all .2s ease-in-out; 
+}
+
+
+.personal-information-icon:hover {
+    background-color: #E93656;
+    color: white;
+    transform: scale(2.1);
+  }
+.third-section {
+    display:flex;
+    gap: 41px;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 203px;
+}
+.flex{
+    display: flex;
+    gap:29px;
+}
+h3 {
+    color:#FFFFFF;
+}
+h4{
+    color:#DFDFDF;
+}
+.forth-section {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
 }
