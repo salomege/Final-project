@@ -91,7 +91,7 @@
     height: 6px;
     background-color: #E93656;
   }
-.progress-bar {
+.progress-bar1 {
     text-align: right;
 }
   .mySlides {
@@ -154,14 +154,51 @@
     margin-bottom: 60px;
     margin-top: 33px;
 }
-#progress1 {
-    height: 6px;
-    background-color: grey;
+.skills{
+    max-width: 302px;
+}
+
+.persentages {
+    width: 100%;
+}
+
+.skil {
+    color: #555555;
+    font-size: 20px;
+}
+.persent{
+    color: #E93656;
+    font-size: 20px;
+}
+.progress-bar {
+    height: 9px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border: 1px;
+    border-radius: 5px;
+    background-color: #F0F0F0;
+}
+.percentage {
     display: block;
-  }
-  
-  #bar1 {
-    width: 80%;
-    height: 6px;
+    height: 100%;
     background-color: #E93656;
-  }
+    border-radius: 5px;
+    animation: progress 1500ms ease-in 1;
+}
+.html-skil {
+    width: 80%;
+}
+.css-skil {
+    width: 65%;
+}
+.js-skil {
+    width: 55%;
+}
+.github-skil {
+    width: 85%;
+}
+@keyframes progress {
+    from {
+        width: 0;
+    }
+}
