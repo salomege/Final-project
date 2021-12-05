@@ -1,0 +1,50 @@
+@media (max-width:1024px) {
+
+    /* ---1--- */
+.mid{
+    flex-direction:column ;
+}
+.no1 {
+    font-size: 50px;
+}
+.about-me {
+    font-size:25px;
+    margin-top: -50px;
+}
+
+/* ---2--- */
+.flex-for-div-3 {
+    flex-direction: column;
+    text-align: center;
+}
+
+/* ---3--- */
+.third-section {
+    flex-direction: column;
+}
+.flex {
+    display:flex;
+    justify-content: center;
+}
+
+/* ---4--- */
+.grid-section{
+    grid-template-columns: auto auto;
+}
+/* ---5--- */
+.developer_detail{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* ---6--- */
+.photos-in-grid {
+    grid-template-columns: auto auto;
+    
+}
+/* ---8--- */
+.our-team{
+    flex-wrap:wrap;
+}
+}
