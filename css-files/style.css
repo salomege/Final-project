@@ -691,9 +691,11 @@ footer {
     transition: all 1s;
 }
 footer  h2 {
+    font-family: 'Poppins-ExtraBold';
     font-size: 55px;
 }
 footer  p {
+    font-family: 'roboto-regular';
     font-size: 17px;
     color:#A5A5A5;
 }
@@ -711,6 +713,7 @@ footer  p {
     padding-bottom: 36px;
 }
 .black-line p{
+    font-family: 'muli';
     font-size: 15px;
     color: #A0A8B7;
 }
