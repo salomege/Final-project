@@ -32,10 +32,16 @@
     grid-template-columns: auto auto;
 }
 /* ---5--- */
-.developer_detail{
+.slideshow-container{
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+.dot-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10px;
 }
 
 /* ---6--- */

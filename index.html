@@ -219,52 +219,53 @@
                 </div> 
             </div>
         </section>
-        <section class="fifth-section" >
-            <div class="developer_flex">
-                <div class="developer_flex_left" >
-                    <div class="developer_detail">
-                        <p>
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore.
-                        </p>
-                        <div class="developer_img">
-                            <img src="images/developer1.jpg">
-                        </div>
-                        <div class="developer_text">
-                            <p>Developer</p>
-                            <h2>Mau Thomas</h2>
-                        </div>
+        <section class="fifth-section">
+            <div class="slideshow-container">
+                <div class="mySlides1 fade">
+                    <p>
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore.
+                    </p>
+                    <div class="developer_img">
+                        <img src="images/developer1.jpg">
                     </div>
-                    <div class="developer_detail">
-                        <p>
-                           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque deserunt est et, labore laboriosam cumque, placeat quidem laudantium quos reiciendis voluptate minima optio fugit ex aliquam molestiae similique nostrum ducimus.
-                        </p>
-                        <div class="developer_img">
-                            <img src="images/developer2.png">
-                        </div>
-                        <div class="developer_text">
-                            <p>Senior Developer</p>
-                            <h2>John Smith</h2>
-                        </div>
-                    </div>
-                    <div class="developer_detail">
-                        <p>
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore.. 
-                        </p>
-                        <div class="developer_img">
-                            <img src="images/developer3.png">
-                        </div>
-                        <div class="developer_text">
-                            <p>Junior Developer</p>
-                            <h2>Alex Jonson</h2>
-                        </div>
+                    <div class="developer_text">
+                        <p>Developer</p>
+                        <h2>Mau Thomas</h2>
                     </div>
                 </div>
-                <div class="bullets">
-                    <button class="btn"></button>
-                    <button class="btn"></button>
-                    <button class="btn"></button>
-                  </div>
-            </div>
+    
+                <div class="mySlides1 fade">
+                <p>
+                               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque deserunt est et, labore laboriosam cumque, placeat quidem laudantium quos reiciendis voluptate minima optio fugit ex aliquam molestiae similique nostrum ducimus.
+                </p>
+                            <div class="developer_img">
+                                <img src="images/developer2.png">
+                            </div>
+                            <div class="developer_text">
+                                <p>Senior Developer</p>
+                                <h2>John Smith</h2>
+                            </div>
+                </div>
+    
+                <div class="mySlides1 fade">
+                <p>
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore.. 
+                            </p>
+                            <div class="developer_img">
+                                <img src="images/developer3.png">
+                            </div>
+                            <div class="developer_text">
+                                <p>Junior Developer</p>
+                                <h2>Alex Jonson</h2>
+                            </div>
+                </div>
+    
+    <!-- The dots/circles -->
+                <div class='dot-div' style="text-align:center">
+                     <span class="dot" onclick="currentSlide(1)"></span>
+                     <span class="dot" onclick="currentSlide(2)"></span>
+                     <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
         </section>
         <section class="sixth-section">
             <div class="latest-projects">
@@ -272,27 +273,13 @@
                 <div class="sidebar-menu">
                     <div class="sidebar">
                         <ul class="navbar-ul">
-                            <li>
-                              <a class="all" href="#">All</a>
-                            </li>
-                            <li>
-                              <a href="#">Work ideas</a>
-                            </li>
-                            <li>
-                              <a href="#">Mockup</a>
-                            </li>
-                            <li>
-                              <a href="#">PSD design</a>
-                            </li>
-                            <li>
-                              <a href="#">Logo</a>
-                            </li>
-                            <li>
-                              <a href="#">Presentation</a>
-                            </li>
-                            <li>
-                                <a href="#">Icons</a>
-                              </li>
+                            <li class="all" onclick="myFunction()">All</li>
+                            <li class='work-ideas' onclick="myFunction1()">Work ideas</li>
+                            <li class='mockup' onclick="myFunction2()">Mockup</li>
+                            <li class='design' onclick="myFunction3()">PSD design</li>
+                            <li class='logo' onclick="myFunction4()">Logo</li>
+                            <li class='presentation' onclick="myFunction5()">Presentation</li>
+                            <li class='icons'onclick="myFunction6()">Icons</li>
                         </ul>      
                     </div>
                     <div class="photos-in-grid">
