@@ -451,7 +451,7 @@ section {
     display: flex;
     gap:30px;
 }
-.navbar-ul li{
+.button,.allbutton{
     margin-bottom: 10px; 
     font-family: 'GlacialIndifference-bold';
     font-size: 20px;
@@ -459,6 +459,13 @@ section {
     font-size: 20px;
     cursor: pointer;
 }
+.button:hover {
+color:#E93656;
+}
+.allbutton:hover {
+    color:#E93656;
+}
+
 .photos-in-grid {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -466,6 +473,14 @@ section {
 .photos-in-grid img {
     width: 100%;
     height: 100%;
+}
+.single{
+    max-width: 400px;
+    margin:0 auto;
+    text-align: center;
+}
+.single img {
+    max-width: 100%;
 }
 
 /* ---7--- */

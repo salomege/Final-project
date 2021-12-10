@@ -259,8 +259,6 @@
                                 <h2>Alex Jonson</h2>
                             </div>
                 </div>
-    
-    <!-- The dots/circles -->
                 <div class='dot-div' style="text-align:center">
                      <span class="dot" onclick="currentSlide(1)"></span>
                      <span class="dot" onclick="currentSlide(2)"></span>
@@ -273,24 +271,36 @@
                 <div class="sidebar-menu">
                     <div class="sidebar">
                         <ul class="navbar-ul">
-                            <li class="all" onclick="myFunction()">All</li>
-                            <li class='work-ideas' onclick="myFunction1()">Work ideas</li>
-                            <li class='mockup' onclick="myFunction2()">Mockup</li>
-                            <li class='design' onclick="myFunction3()">PSD design</li>
-                            <li class='logo' onclick="myFunction4()">Logo</li>
-                            <li class='presentation' onclick="myFunction5()">Presentation</li>
-                            <li class='icons1'onclick="myFunction6()">Icons</li>
+                            <li class="allbutton">All</li>
+                            <li class='work-ideas button' target="1">Work ideas</li>
+                            <li class='mockup button' target="2">Mockup</li>
+                            <li class='design button' target="3">PSD design</li>
+                            <li class='logo button' target="4">Logo</li>
+                            <li class='presentation button' target="5">Presentation</li>
+                            <li class='icons1 button'target="6">Icons</li>
                         </ul>      
                     </div>
                     <div class="photos-in-grid">
-                        <img src="images/6th-section-1.png" alt="ideas">
-                        <img src="images/6th-section-2.png" alt="mockup">
-                        <img src="images/6th-section-3.png" alt="PSD">
-                        <img src="images/6th-section-4.png" alt="logo">
-                        <img src="images/6th-section-5.png" alt="presentation">
-                        <img src="images/6th-section-6.png" alt="icons">
-                    </div>
-                </div>
+                        <div id="div1" class="single">
+                            <img src="images/6th-section-1.png" alt="ideas">
+                        </div>
+                        <div id="div2" class="single">
+                            <img src="images/6th-section-2.png" alt="mockup">
+                        </div>
+                        <div id="div3" class="single">
+                            <img src="images/6th-section-3.png" alt="PSD">
+                        </div>
+                        <div id="div4" class="single">
+                            <img src="images/6th-section-4.png" alt="logo">
+                        </div>
+                        <div id="div5" class="single">
+                            <img src="images/6th-section-5.png" alt="presentation">
+                        </div>
+                        <div id="div6" class="single">
+                            <img src="images/6th-section-6.png" alt="icons">
+                        </div>
+                    </div>    
+                 </div>
             </div>
         </section>
         <section class="seventh-section">
@@ -454,7 +464,8 @@
                 </div>
             </footer>
 
-    </div>    
+    </div> 
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>       
 <script src="app.js"></script>
 </body>
 </html>

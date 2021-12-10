@@ -31,12 +31,9 @@ document.querySelectorAll('.partner').forEach(itemBox => {
   var slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-
-// Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
@@ -58,3 +55,15 @@ function showSlides(n) {
 }
 }
 
+{
+jQuery(function() {
+  jQuery(".allbutton").click(function(){
+      jQuery(".single").show();
+  });
+  jQuery(".button").click(function(){
+      jQuery(".single").hide();
+      jQuery("#div"+ $(this).attr('target')).show();
+  });
+});
+
+}
