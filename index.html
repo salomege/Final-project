@@ -427,11 +427,11 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                 </div>
                 <div class="contact-table">
-                    <form method="POST">
+                    <form method="POST" id="user-registraion-form">
                         <div class="contact-fields">
                             <input type="text" name="full_name" id="full_name" placeholder="Your Name" value="" required>
                             <input type="email" name="email" id="email" placeholder="Your Email" value="" required>
-                            <input type="text" name="subject" id="subject" placeholder="Subject" value="" required>
+                            <input type="text" name="Website" id="Website" placeholder="Website" value="" required>
                         </div>
                         <div class="contact_message">
                             <textarea name=" id="message" name="message" rows="8" value="" placeholder="Message"
@@ -440,6 +440,10 @@
                         <input type="submit" class="submit" value="SEND MESSAGE">
             
                     </form>
+                </div>
+                <div id="thank_you" style="display: none;">
+                    <p>Thanks for filling up the form!</p>
+                    <button type="submit">Close</button>
                 </div>
             </section>
         
