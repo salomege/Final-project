@@ -49,6 +49,11 @@
     grid-template-columns: auto auto;
     
 }
+    
+/*---7----*/
+    .seciont_left  h2 {
+        font-size:30px;
+    }
 /* ---8--- */
 .our-team{
     flex-wrap:wrap;
